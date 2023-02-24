@@ -4,7 +4,13 @@
 
 1. The first parameter, `image_file`, is a string representing the path to the image file.
 
-   - The file type must be one of the following: PNG, JPG, JPEG, BMP, GIF, PSD, PDN, AVIF, WebP, SVG, TIFF, HEIC, ICO, or DDS.
+   - The file type must be one of the following:
+     - PNG
+     - JPG, JPEG
+     - BMP
+     - GIF
+     - TIFF
+     - The following could be supported in the future? {PSD, PDN, AVIF, WebP, SVG, HEIC, ICO, or DDS}.
    - The program must assert that the `image_file` is a valid path to an accepted image file. If not, the program must exit.
 2. The second parameter, `export_dir`, is a string representing the path to the directory to export the ASCII conversion.
 
